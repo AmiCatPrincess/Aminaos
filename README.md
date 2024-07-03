@@ -31,6 +31,20 @@ $('#login').click(function() {
 });
 </script>
 
+let data = [
+  [1, 2, 3, 4, 5],
+  ['a', 'b', 'c', 'd', 'i'],
+]
+console.log(
+  data.map((row) => {
+    return `<tr>${row
+      .map((col) => {
+        return `<td>${col}</td>`
+      })
+      .join('')}</tr>`
+  }),
+)
+
 arr = [7,4,9,2,6,3]
 insertionsort(arr)
 print('Sorted %s'  %arr) # sorted [2, 3, 4, 6, 7, 9]
