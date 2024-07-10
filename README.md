@@ -58,19 +58,7 @@ def insertion_sort(arr):
             arr[j + 1] = arr[j]
             j -= 1
             arr[j + 1] = key
-Пример:
 
-<div class="wrap">
-  <div class="element"></div>
-  <div class="element"></div>
-  <div class="element"></div>
-  <div class="element"></div>
-  <div class="element"></div>
-  <div class="element"></div>
-  <div class="element"></div>
-  <div class="element"></div>
-  <div class="element"></div>
-</div>
 
 
 def difference(a, b):
